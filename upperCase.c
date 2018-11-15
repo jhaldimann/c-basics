@@ -4,7 +4,7 @@
 int main() {
     int c;
     FILE *file;
-    file = fopen("abc.txt", "r");
+    file = fopen("test.txt", "r");
     if (file) {
         while ((c = getc(file)) != EOF){
             putchar(toupper(c));

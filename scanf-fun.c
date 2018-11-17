@@ -2,10 +2,8 @@
 int main() {
     char x[30];
     char y[30];
-    
-    printf("Enter two values:\n");
-    scanf("%s\n", x);
-    scanf("%s", y);
-    printf("%s - %s\n",x,y);
+    scanf ("%[^\n]", x);
+    scanf ("%[^\n]", y);
+    fprintf (stdout,"%s - %s\n",x,y);
     return 0;
 }

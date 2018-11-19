@@ -11,8 +11,8 @@
 int main() {
     char x[30];
     char y[30];
-    scanf ("%s[^\n]", x);
-    scanf ("%s[^\n]", y);
+    scanf ("%29[^\n]", x);
+    scanf ("%29[^\n]", y);
     fprintf (stdout,"%s - %s\n",x,y);
     return 0;
 }

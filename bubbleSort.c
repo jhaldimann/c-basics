@@ -22,12 +22,12 @@ void bubbleSortString (char *str) {
 }
 
 int main () {
-    /* Define variables */
-    char myString[100];
-    printf( "Enter a value :");
-    /* Read input from console */
-    scanf("%99s",myString);
+  /* Define variables */
+  char myString[100];
+  printf( "Enter a value :");
+  /* Read input from console */
+  scanf("%99s",myString);
 
-    bubbleSortString(myString);
-    return 0;
+  bubbleSortString(myString);
+  return 0;
 }

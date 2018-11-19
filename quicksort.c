@@ -57,7 +57,7 @@ int main () {
   // print values before sort
   printArray(myArray, arrayLength);
   // sort that stuff
-  quicksort(myArray, 0, 10-1);
+  quicksort(myArray, 0, arrayLength-1);
   //  print the values again but now they are sorted
   printArray(myArray, arrayLength);
 }

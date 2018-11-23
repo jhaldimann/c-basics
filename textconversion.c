@@ -12,8 +12,7 @@ int main()
     fp = fopen(filename, "r"); 
   
     c = fgetc(fp); 
-    while (c != EOF) 
-    { 
+    while (c != EOF) { 
         printf ("%c", c); 
         c = fgetc(fp); 
     } 

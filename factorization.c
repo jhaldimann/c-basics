@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-calcFactors(int input) {
+void calcFactors(int input) {
     /* Begin with smallest primenumber*/
     int factor = 2;
     while(input > 1) {

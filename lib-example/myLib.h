@@ -5,8 +5,8 @@
 long factorial(long);
 double exponential(long);
 long logarithm(long);
-int square(int);
-int greatestCommonDivisor(int,int);
+long square(long);
+long greatestCommonDivisor(long,long);
 
 #endif
 

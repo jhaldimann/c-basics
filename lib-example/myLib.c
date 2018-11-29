@@ -44,8 +44,8 @@ long logarithm(long val){
   return res;
 }
 
-int greatestCommonDivisor(int x, int y) {
-    int temp;
+long greatestCommonDivisor(long x, long y) {
+    long temp;
     while (y != 0) {
         temp = x % y;
         x = y;
@@ -54,7 +54,7 @@ int greatestCommonDivisor(int x, int y) {
     return x;
 }
 
-int square (int x) {
+long square (long x) {
   return x*x;
 }
 

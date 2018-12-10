@@ -1,2 +1,0 @@
-Hello World
-Words 2 characters string

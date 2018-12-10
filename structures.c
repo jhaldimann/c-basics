@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <string.h>
 
 struct Car { 
    char brand[50]; 
@@ -9,12 +8,16 @@ struct Car {
 };
 
 int main(){
-    struct Car car;
-
-    strcpy( car.brand, "C Programming");
-    strcpy( car.type, "Nuha Ali"); 
-    strcpy( car.id, 12); 
-
-    printf("%c",car.brand);
+    struct Car car[10];
+    int res;
+    int i = 0;
+    do{
+        res = scanf("%s %s %ld %lf", car[i].brand,car[i].type,&car[i].id,&car[i].price);
+        i++;
+    }while(res != EOF);
+    i--;
+    for(int j = 0; j < i; j++) {
+        printf("\nBrand: %s Type: %s ID: %ld Price: %lf",car[j].brand, car[j].type, car[j].id, car[j].price);
+    }
     return 0;
 }

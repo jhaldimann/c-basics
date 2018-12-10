@@ -10,8 +10,7 @@ void sort(const char *arr[], int n) {
     qsort (arr, n, sizeof (const char *), myCompare); 
 } 
   
-int main () 
-{ 
+int main () { 
     const char *arr[] = {"Gruetzi", "Hallo", "Hello","Bonjour"}; 
     int size = sizeof(arr)/sizeof(arr[0]);  
     for (int i = 0; i < size; i++) {

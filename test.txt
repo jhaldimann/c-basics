@@ -1,3 +1,2 @@
-Max; Mustermann; 24/11/2014 
-Fritz; Weber; 30/12/2013
-Hans; Fischer; 09/09/2016
+Hello World
+Words 2 characters string
